@@ -1,0 +1,172 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+aside p,
+div,
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.contribution-graph {
+  margin-top: 40px;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.section {
+  padding: 30px;
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.content {
+  margin: 15px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+aside {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+aside {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.skill-content {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.light-mode .education_item .university,
+.light-mode .langauge_item p {
+  color: #000;
+}
+
+.education_item .university,
+.langauge_item p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.education_item p {
+  font-size: 18px;
+  font-weight: 500;
+}
+aside p,
+div,
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .section,
+  aside {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .section,
+  aside {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .section > h2 {
+    margin: 5px;
+    margin-left: 20px;
+    font-weight: 600;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .d-md-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}

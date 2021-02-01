@@ -1,0 +1,173 @@
+.light-mode .header {
+  background: #f5f5f5;
+}
+
+.header {
+  padding: 15px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 16px 0;
+  height: 180px;
+  width: 180px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+aside p,
+div,
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.light-mode .profile_name h2 {
+  color: #b0b7bf;
+}
+.light-mode .mask {
+  background: url(https://res.cloudinary.com/dgv2ytq4r/image/upload/v1582031820/bubble_zlir7w.png)
+    repeat;
+  background-size: 300px auto;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: upward 12s infinite linear;
+}
+h2 {
+  font-size: 24px;
+}
+.social li {
+  float: left;
+  margin: 5px;
+  max-width: 50px;
+  max-height: 30px;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  background: #b0b7bf;
+  text-align: center;
+  transition: 0.23s all ease-in-out;
+}
+
+.light-mode .mask {
+  background: url(https://res.cloudinary.com/dgv2ytq4r/image/upload/v1582031820/bubble_zlir7w.png)
+    repeat;
+  background-size: 300px auto;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: upward 12s infinite linear;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+}
+
+.btn-wrapper {
+  margin-top: 8px;
+}
+
+.align-middle {
+  vertical-align: middle !important;
+}
+aside p,
+div,
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+button.btn.btn-secondary,
+button.btn.btn-secondary a {
+  float: right;
+  color: #f5f5f5;
+  background: #007bff !important;
+  border-style: none;
+}
+
+.profile_name {
+  margin-left: 20px;
+}
+
+.fa {
+  padding: 3px;
+}
+
+.btn-wrapper {
+  margin-top: 8px;
+}
+
+.align-middle {
+  vertical-align: middle !important;
+}
+.fa-lightbulb-o {
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+.fa-lightbulb-o {
+  font-size: 32px;
+  cursor: pointer;
+  animation: heartbeat 0.8s infinite linear;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 768px) {
+  .mr-md-auto,
+  .mx-md-auto {
+    margin-right: auto !important;
+  }
+}
+@media (min-width: 768px) {
+  .align-items-md-start {
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+  }
+}
