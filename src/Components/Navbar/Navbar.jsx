@@ -80,21 +80,6 @@ const Navbar = () => {
                     <i className="fa fa-instagram"></i>
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="/files/David Akanni Resume.pdf"
-                    title="Resume"
-                    rel="noopener"
-                    aria-label="Resume"
-                  >
-                    <i className="fa fa-file"></i>
-                  </a>
-                </li>
-                <li style={{ opacity: '0' }}>
-                  <a href="https://www.twine.fm/iammylo">
-                    <i class="fa fa-file"></i>
-                  </a>
-                </li>
               </ul>
               <div className="align-middle btn-wrapper">
                 <button className="btn btn-secondary">
