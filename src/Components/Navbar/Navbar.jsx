@@ -11,14 +11,14 @@ const Navbar = () => {
               <img
                 class="profile-image img-responsive"
                 src="https://res.cloudinary.com/dgv2ytq4r/image/upload/v1582031882/seun_ons3vd.jpg"
-                alt="Akanni David's image"
+                alt="Blessed Dominic's image"
               />
             </div>
             <div className="col-sm-12 col-md-8 mr-md-auto d-flex flex-column align-items-center align-items-md-start align-items-sm-center profile_name">
               <h1 className="name" id="header">
-                <strong>Blessed Domininc</strong>
+                <strong>Blessed Dominic</strong>
               </h1>
-              <h2>Frontend Engineer</h2>
+              <h2>FULL STACK DEVELOPER</h2>
               <ul className="social list-inline">
                 <li>
                   <a
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/akanniseun"
+                    href="https://www.linkedin.com/in/blesseddominic"
                     title="Linkedin"
                     rel="noopener"
                     aria-label="linkedIn"
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/MyloCarson"
+                    href="https://github.com/Blessed538"
                     title="GitHub"
                     rel="noopener"
                     aria-label="Github"
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <i class="fa fa-github-alt"></i>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://medium.com/@akannidavidseun"
                     title="Medium"
@@ -59,8 +59,8 @@ const Navbar = () => {
                   >
                     <i className="fa fa-medium"></i>
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a
                     href="https://articles.seunakanni.me"
                     title="Blog"
@@ -69,7 +69,7 @@ const Navbar = () => {
                   >
                     <i className="fa fa-newspaper-o"></i>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="https://www.instagram.com/i_am_mylo"
@@ -98,7 +98,7 @@ const Navbar = () => {
               </ul>
               <div className="align-middle btn-wrapper">
                 <button className="btn btn-secondary">
-                  <a href="mailto:akannidavidseun@gmail.com?Subject=Mail%20to%20say%20hi.">
+                  <a href="mailto:blesseddominic98@gmail.com?Subject=Mail%20to%20say%20hi.">
                     Let's grab coffee.<i class="fa fa-paper-plane"></i>
                   </a>
                 </button>
