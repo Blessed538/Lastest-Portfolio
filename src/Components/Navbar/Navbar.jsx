@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="col-sm-12 col-md-3 d-flex justify-content-center">
               <img
                 class="profile-image img-responsive"
-                src="https://res.cloudinary.com/dgv2ytq4r/image/upload/v1582031882/seun_ons3vd.jpg"
+                src={require('../../Assets/Img/profilepic.png')}
                 alt="Blessed Dominic's image"
               />
             </div>
